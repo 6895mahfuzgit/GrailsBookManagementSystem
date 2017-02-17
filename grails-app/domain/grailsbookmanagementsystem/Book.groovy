@@ -6,6 +6,7 @@ class Book {
     String bookTitle
 
     static belongsTo = [author: Author]
+    static hasMany = [borrow: Borrow]
     static constraints = {
         bookTitle(blank: false, unique: true)
     }
