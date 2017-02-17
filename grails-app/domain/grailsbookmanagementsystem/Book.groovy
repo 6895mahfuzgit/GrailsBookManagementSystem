@@ -10,4 +10,9 @@ class Book {
     static constraints = {
         bookTitle(blank: false, unique: true)
     }
+
+
+    String toString() {
+        return this.bookTitle
+    }
 }

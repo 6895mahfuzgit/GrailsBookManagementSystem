@@ -11,4 +11,9 @@ class Member {
 
         memberName(blank: false, maxSize: 100)
     }
+
+
+    String toString() {
+        return this.memberName
+    }
 }

@@ -5,8 +5,12 @@ class Author {
     String id
     String authorName
 
-    static hasMany = [book:Book]
+    static hasMany = [book: Book]
     static constraints = {
         authorName(blank: false, maxSize: 100)
+    }
+
+    String toString() {
+        return this.authorName
     }
 }
