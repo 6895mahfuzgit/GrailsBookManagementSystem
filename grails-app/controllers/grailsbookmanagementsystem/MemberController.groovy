@@ -4,5 +4,5 @@ class MemberController {
 
     static scaffold = Member
 
-    def index() {}
+   // def index() {}
 }

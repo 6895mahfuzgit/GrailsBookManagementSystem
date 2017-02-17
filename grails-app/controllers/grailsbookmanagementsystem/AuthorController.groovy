@@ -4,5 +4,5 @@ class AuthorController {
 
     static scaffold = Author
 
-    def index() {}
+   // def index() {}
 }

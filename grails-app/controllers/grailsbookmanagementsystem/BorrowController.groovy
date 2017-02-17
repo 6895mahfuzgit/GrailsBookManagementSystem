@@ -4,5 +4,5 @@ class BorrowController {
 
     static scaffold = Borrow
 
-    def index() {}
+   // def index() {}
 }
