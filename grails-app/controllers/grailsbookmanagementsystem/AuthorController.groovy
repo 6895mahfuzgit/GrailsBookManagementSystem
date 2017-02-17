@@ -2,5 +2,7 @@ package grailsbookmanagementsystem
 
 class AuthorController {
 
-    def index() { }
+    static scaffold = Author
+
+    def index() {}
 }
