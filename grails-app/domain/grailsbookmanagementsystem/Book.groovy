@@ -8,7 +8,7 @@ class Book {
     static belongsTo = [author: Author]
     static hasMany = [borrow: Borrow]
     static constraints = {
-        bookTitle(blank: false, unique: true)
+        bookTitle(blank: false, unique:true)
     }
 
 

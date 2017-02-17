@@ -2,6 +2,7 @@ package grailsbookmanagementsystem
 
 class Borrow {
 
+    String id
     Date issueDate
     Date dueDate
     Date recievedDate
